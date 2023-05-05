@@ -1,6 +1,6 @@
 # 死活浪 — sihuo-lang
 
-Interactive puzzle solving for Go, heavily inspired by [Puzzle Storm](lichess.org/storm).
+Timed puzzle solving for Go, heavily inspired by [Puzzle Storm](lichess.org/storm).
 
 Puzzles should be stored in an SGF file `puzzles.sgf`. All moves in the puzzles
 are assumed to be valid solutions unless they contain the `BM` SGF tag.
