@@ -1,0 +1,19 @@
+{
+  "name": "sihuo-lang",
+  "private": true,
+  "dependencies": {
+    "@sabaki/go-board": "^1.4.3",
+    "@sabaki/sgf": "^3.4.7",
+    "@sabaki/shudan": "^1.7.1",
+    "preact": "^10.5.14",
+    "web-ext": "^7.2.0",
+    "webpack": "^5.74.0"
+  },
+  "devDependencies": {
+    "webpack-cli": "^4.10.0"
+  },
+  "scripts": {
+    "build": "webpack"
+  },
+  "license" : "AGPL-3.0-or-later"
+}
