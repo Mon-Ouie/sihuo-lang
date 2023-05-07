@@ -725,8 +725,8 @@ class SihuoLang extends Component {
             }
 
             return h("div", { class: "dashboard" },
-                [h("p", { class: "score" }, [this.state.score.toString()]),
-                h("p", { class: `clock ${bonusClass}` }, [`${min}:${sec}`, bonus]),
+                [h("div", { class: "score" }, [this.state.score.toString()]),
+                h("div", { class: `clock ${bonusClass}` }, [`${min}:${sec}`, bonus]),
                     comment,
                 this.renderCombo()]);
         }
